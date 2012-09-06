@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lotus", "Lotus\Lotus.vcproj", "{641B21D9-9664-44CA-8432-9E5A4859B034}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "TestApp\TestApp.vcproj", "{70EBCE9E-77EC-4E6D-B7D5-874148EF8CE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A04ACC04-BA07-496A-A7D8-27C6FE9A21C1} = {A04ACC04-BA07-496A-A7D8-27C6FE9A21C1}
+		{641B21D9-9664-44CA-8432-9E5A4859B034} = {641B21D9-9664-44CA-8432-9E5A4859B034}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DXRenderer", "DXRenderer\DXRenderer.vcproj", "{A04ACC04-BA07-496A-A7D8-27C6FE9A21C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{641B21D9-9664-44CA-8432-9E5A4859B034} = {641B21D9-9664-44CA-8432-9E5A4859B034}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XFileConverter", "XFileConverter\XFileConverter.vcproj", "{3FFF1612-D74E-469F-BF2A-11CC1E840ED3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowApp", "WindowApp\WindowApp.vcproj", "{3E97A960-D047-4580-AD4F-E85BDFC4F0ED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{641B21D9-9664-44CA-8432-9E5A4859B034} = {641B21D9-9664-44CA-8432-9E5A4859B034}
+		{A04ACC04-BA07-496A-A7D8-27C6FE9A21C1} = {A04ACC04-BA07-496A-A7D8-27C6FE9A21C1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{641B21D9-9664-44CA-8432-9E5A4859B034}.Debug|Win32.ActiveCfg = Debug|Win32
+		{641B21D9-9664-44CA-8432-9E5A4859B034}.Debug|Win32.Build.0 = Debug|Win32
+		{641B21D9-9664-44CA-8432-9E5A4859B034}.Release|Win32.ActiveCfg = Release|Win32
+		{641B21D9-9664-44CA-8432-9E5A4859B034}.Release|Win32.Build.0 = Release|Win32
+		{70EBCE9E-77EC-4E6D-B7D5-874148EF8CE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70EBCE9E-77EC-4E6D-B7D5-874148EF8CE0}.Debug|Win32.Build.0 = Debug|Win32
+		{70EBCE9E-77EC-4E6D-B7D5-874148EF8CE0}.Release|Win32.ActiveCfg = Release|Win32
+		{70EBCE9E-77EC-4E6D-B7D5-874148EF8CE0}.Release|Win32.Build.0 = Release|Win32
+		{A04ACC04-BA07-496A-A7D8-27C6FE9A21C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A04ACC04-BA07-496A-A7D8-27C6FE9A21C1}.Debug|Win32.Build.0 = Debug|Win32
+		{A04ACC04-BA07-496A-A7D8-27C6FE9A21C1}.Release|Win32.ActiveCfg = Release|Win32
+		{A04ACC04-BA07-496A-A7D8-27C6FE9A21C1}.Release|Win32.Build.0 = Release|Win32
+		{3FFF1612-D74E-469F-BF2A-11CC1E840ED3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FFF1612-D74E-469F-BF2A-11CC1E840ED3}.Debug|Win32.Build.0 = Debug|Win32
+		{3FFF1612-D74E-469F-BF2A-11CC1E840ED3}.Release|Win32.ActiveCfg = Release|Win32
+		{3FFF1612-D74E-469F-BF2A-11CC1E840ED3}.Release|Win32.Build.0 = Release|Win32
+		{3E97A960-D047-4580-AD4F-E85BDFC4F0ED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E97A960-D047-4580-AD4F-E85BDFC4F0ED}.Debug|Win32.Build.0 = Debug|Win32
+		{3E97A960-D047-4580-AD4F-E85BDFC4F0ED}.Release|Win32.ActiveCfg = Release|Win32
+		{3E97A960-D047-4580-AD4F-E85BDFC4F0ED}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
